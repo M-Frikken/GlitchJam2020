@@ -1,2 +1,8 @@
-/// @description Insert description here
-// You can write your code in this editor
+grav = 0.5;
+jump_spd = 8;
+vert_spd = 0;
+jumping = false;
+falling = false;
+ducking = false;
+termVelocity = 50;
+
