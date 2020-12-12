@@ -14,10 +14,12 @@ surface_set_target(surface);
 draw_clear_alpha(c_black, 0);
 
 draw_set_color(c_black);
-draw_set_alpha(0.9);
+draw_set_alpha(0.6);
 draw_rectangle(0, 0, room_width, room_height, 0);
+
 draw_set_color(c_white);
 draw_set_alpha(1);
+draw_sprite(spr_dark1, 0, -35, 50);
 
 // draw firefly glow
 if(instance_exists(obj_firefly)) {
@@ -26,7 +28,7 @@ if(instance_exists(obj_firefly)) {
 	gpu_set_blendmode(bm_subtract);
 	draw_sprite_ext(spr_glow2, 0, obj_firefly.x, obj_firefly.y, glowSize, glowSize, 0, c_yellow, 1);	
 	gpu_set_blendmode(bm_add);
-	draw_sprite_ext(spr_glow1, 0, obj_firefly.x, obj_firefly.y, -glowSize, -glowSize, 0, c_yellow, 1);	
+	draw_sprite_ext(spr_glow1, 0, obj_firefly.x, obj_firefly.y, -glowSize, -glowSize, 0, c_white, 1);	
 	
 	//draw_self();
 	gpu_set_blendmode(bm_normal);
