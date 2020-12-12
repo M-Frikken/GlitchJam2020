@@ -35,7 +35,7 @@
     "spriteId": {"name":"spr_protag_slide","path":"sprites/spr_protag_slide/spr_protag_slide.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 8.0,
+    "playbackSpeed": 10.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

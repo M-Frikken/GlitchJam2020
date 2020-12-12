@@ -1,9 +1,6 @@
 {
-  "spriteId": {
-    "name": "spr_protag_run",
-    "path": "sprites/spr_protag_run/spr_protag_run.yy",
-  },
-  "solid": true,
+  "spriteId": null,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -20,15 +17,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"obj_lighting_manager","path":"objects/obj_lighting_manager/obj_lighting_manager.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "game_entities",
-    "path": "folders/Objects/game_entities.yy",
+    "name": "managers",
+    "path": "folders/Objects/managers.yy",
   },
   "resourceVersion": "1.0",
-  "name": "protag",
+  "name": "obj_lighting_manager",
   "tags": [],
   "resourceType": "GMObject",
 }

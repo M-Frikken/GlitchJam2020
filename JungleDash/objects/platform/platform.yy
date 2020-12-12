@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "spr_protag_run",
-    "path": "sprites/spr_protag_run/spr_protag_run.yy",
+    "name": "spr_platform",
+    "path": "sprites/spr_platform/spr_platform.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -24,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "game_entities",
-    "path": "folders/Objects/game_entities.yy",
+    "name": "terrain",
+    "path": "folders/Objects/terrain.yy",
   },
   "resourceVersion": "1.0",
-  "name": "protag",
+  "name": "platform",
   "tags": [],
   "resourceType": "GMObject",
 }
