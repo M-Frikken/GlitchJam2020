@@ -1,6 +1,6 @@
 
-goingUp = false;
-startY = y;
-endY = startY + 50;
-factor = (startY - endY) / 200;
+//goingUp = false;
+//startY = y;
+//endY = startY + 50;
+val = 0;
 //start_accel = 1.3;
