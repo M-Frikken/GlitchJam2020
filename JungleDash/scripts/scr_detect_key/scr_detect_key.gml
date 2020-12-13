@@ -6,4 +6,5 @@ function scr_detect_key(){
 	jumpKeyAlt2 = keyboard_check_pressed(ord("W"));
 	duckKey = keyboard_check(vk_down);
 	duckKeyAlt = keyboard_check(ord("S"));
+	duckKeyAlt2 = keyboard_check(vk_shift);
 }

@@ -4,8 +4,6 @@ function scr_set_sprite(){
 	}
 	
 	if(ducking && !falling && !jumping){
-		//sprite_index = spr_protag_toslide;
-		//image_speed = 2; 
 		sprite_index = spr_protag_slide;
 	}
 	

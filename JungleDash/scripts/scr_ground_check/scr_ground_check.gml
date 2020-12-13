@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_ground_check(){
-	if(duckKey || duckKeyAlt){
+	if(duckKey || duckKeyAlt || duckKeyAlt2){
 		ducking = true;
 		jumping = false;
 		falling = true;
@@ -13,19 +13,19 @@ function scr_ground_check(){
 		jumping = false;
 		falling = false;
 		
-		if(!(duckKey || duckKeyAlt)){
+		if(!(duckKey || duckKeyAlt || duckKeyAlt2)){
 			ducking = false;
 		}
 		
 		// If the player wants to jump
-		if((jumpKey || jumpKeyAlt || jumpKeyAlt2) && !(duckKey || duckKeyAlt)){
+		if((jumpKey || jumpKeyAlt || jumpKeyAlt2) && !(duckKey || duckKeyAlt || duckKeyAlt2)){
 			jumping = true;
 			vert_spd = -jump_spd;
 		}
 		
 	}else{
 		// Not touching the ground
-		if(duckKey || duckKeyAlt){
+		if(duckKey || duckKeyAlt || duckKeyAlt2){
 			// Fall faster if you duck while jumping
 			vert_spd += grav*4;
 		}else{
