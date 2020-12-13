@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_sanity_meter",
-    "path": "sprites/spr_sanity_meter/spr_sanity_meter.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
