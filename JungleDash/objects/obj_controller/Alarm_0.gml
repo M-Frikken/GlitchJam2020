@@ -15,6 +15,6 @@ if(global.speedModifier > 1.5){
 	}
 }
 
-global.speedModifier += 0.001;
+global.speedModifier += 0.01;
 
 alarm[0] = room_speed * random_range(1/global.speedModifier, 2/global.speedModifier);

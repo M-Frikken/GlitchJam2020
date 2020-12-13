@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "game_over",
+  "name": "game_won",
   "tags": [],
   "resourceType": "GMScript",
 }

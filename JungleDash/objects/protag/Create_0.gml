@@ -6,3 +6,4 @@ falling = false;
 ducking = false;
 termVelocity = 50;
 
+getting_dmgd = true;
