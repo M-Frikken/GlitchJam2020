@@ -17,15 +17,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":13,"eventType":5,"collisionObjectId":null,"parent":{"name":"obj_cyka","path":"objects/obj_cyka/obj_cyka.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "managers",
-    "path": "folders/Objects/managers.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sanity_meter",
+  "name": "obj_cyka",
   "tags": [],
   "resourceType": "GMObject",
 }

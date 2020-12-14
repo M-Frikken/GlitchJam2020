@@ -2,6 +2,6 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 
 /// @desc Game Over text/animation
-function game_over(){
-	
+function game_won(){
+	room_goto(room_won);
 }
