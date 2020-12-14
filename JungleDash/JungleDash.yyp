@@ -39,6 +39,8 @@
     {"id":{"name":"spr_shadow_hound","path":"sprites/spr_shadow_hound/spr_shadow_hound.yy",},"order":0,},
     {"id":{"name":"scr_ground_check","path":"scripts/scr_ground_check/scr_ground_check.yy",},"order":1,},
     {"id":{"name":"scr_set_sprite","path":"scripts/scr_set_sprite/scr_set_sprite.yy",},"order":4,},
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":1,},
+    {"id":{"name":"spr_glow1","path":"sprites/spr_glow1/spr_glow1.yy",},"order":5,},
     {"id":{"name":"spr_protag_toslide","path":"sprites/spr_protag_toslide/spr_protag_toslide.yy",},"order":4,},
     {"id":{"name":"spr_protag_run","path":"sprites/spr_protag_run/spr_protag_run.yy",},"order":1,},
     {"id":{"name":"shadow_hound","path":"objects/shadow_hound/shadow_hound.yy",},"order":3,},
